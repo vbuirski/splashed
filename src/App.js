@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import MetaTags from 'react-meta-tags';
+import AppContainer from './containers/AppContainer/AppContainer';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="wrapper">
+          <MetaTags>
+              <title>splashed!</title>
+              <meta name="viewport" content="width=device-width, initial-scale=1"/>
+              <meta id="meta-description" name="splashed" content="splashed by vbuirski"/>
+              <meta id="og-title" property="og:title" content="splashed"/>
+              <script src="https://kit.fontawesome.com/77b735345e.js" crossOrigin="anonymous"></script>
+          </MetaTags>
+          <div className="App">
+              <AppContainer />
+          </div>
+      </div>
   );
 }
 

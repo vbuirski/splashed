@@ -1,0 +1,12 @@
+.error {
+    height: 120px;
+    margin-top: 20px;
+    background: rgb(215, 67, 56);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    /*font-family: 'Josefin Sans', cursive;*/
+    font-size: xx-large;
+}

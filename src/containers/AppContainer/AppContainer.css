@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+header {
+    height: 120px;
+    background: #133046;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    /*font-family: 'Josefin Sans', cursive;*/
+    font-size: xx-large;
+}
+footer {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    /* Height of the footer */
+    height: 40px;
+    background: #133046;
+    color: white;
+    z-index: 1;
+}
+
+.main {
+    width:100%; height:auto;
+    margin: 0 auto -80px;
+    min-height: 100%;
+    padding: 0 0 30px;
+    box-sizing: border-box;
+    overflow: auto;
+    background: #133046;
+}
+
+.image-gallery {
+    width:100%;
+    height:auto;
+    background:#133046;
+    display:flex;justify-content: center;align-items:center;
+    flex-wrap: wrap;
+    padding-top:3%;
+    box-sizing: border-box;
+}
